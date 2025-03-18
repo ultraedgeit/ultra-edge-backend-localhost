@@ -14,7 +14,7 @@ exports.getForm = (req, res) => {
     `);
   };
   
-// post
+// post - when integrated with contact.html in ultraedge website
   exports.submitForm = (req, res) => {
     const { name, email, comments, Subject } = req.body;
     // Here you can add additional business logic, for example, storing the data in a database.
