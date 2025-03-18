@@ -1,4 +1,4 @@
-// get 
+// get - for testing purposes
 exports.getForm = (req, res) => {
     res.send(`
       <h1>Submit Your Details</h1>
