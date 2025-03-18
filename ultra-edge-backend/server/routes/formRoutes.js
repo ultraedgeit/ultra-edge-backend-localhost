@@ -6,6 +6,6 @@ const formController = require("../controllers/formController");
 router.get("/", formController.getForm);
 
 // post
-router.post("", formController.submitForm);
+router.post("/", formController.submitForm);
 
 module.exports = router;
